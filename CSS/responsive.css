@@ -21,12 +21,6 @@
   .hire-us-container {
     padding: var(--size-100);
   }
-
-  footer {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    padding: 0 var(--size-10);
-  }
-
   footer div { width: 13.75rem; }
 }
 
@@ -105,12 +99,6 @@
 
   .hire-us { margin: 0;}
 
-  footer {
-    grid-template-areas: 
-    "contact contact"
-    "company features"
-    "documentation resources";
-  }
 
   .company-contact { grid-area: contact;}
 
