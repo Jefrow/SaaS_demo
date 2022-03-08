@@ -250,11 +250,12 @@
   .demo-docs-container.slide-active { display: block; }
 
   .demo-space {
+    max-width: 350px;
     justify-content: space-evenly;
     width: 25rem;
     margin: 0;
     position: absolute;
-    top: 0.25rem;
+    top: 2.25rem;
     animation-name: fade-in;
     animation-duration: 3s;
    } 
